@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Estanislao19/don-repo-prueba/static/css/main.1f8d72b4.css",
+    "main.js": "/Estanislao19/don-repo-prueba/static/js/main.cba7fda7.js",
+    "static/js/453.8c91dd69.chunk.js": "/Estanislao19/don-repo-prueba/static/js/453.8c91dd69.chunk.js",
+    "static/media/StockCake-Weathered Wooden Planks_1720103424.jpg": "/Estanislao19/don-repo-prueba/static/media/StockCake-Weathered Wooden Planks_1720103424.80050c9998deda93ba7d.jpg",
+    "static/media/logo-banner.svg": "/Estanislao19/don-repo-prueba/static/media/logo-banner.5f4d5a3ab8ff9bc4b100acb37fdf39f3.svg",
+    "static/media/letter-logo-transparent.svg": "/Estanislao19/don-repo-prueba/static/media/letter-logo-transparent.be0d045d744e484f22fba4d7fac14dd5.svg",
+    "index.html": "/Estanislao19/don-repo-prueba/index.html",
+    "main.1f8d72b4.css.map": "/Estanislao19/don-repo-prueba/static/css/main.1f8d72b4.css.map",
+    "main.cba7fda7.js.map": "/Estanislao19/don-repo-prueba/static/js/main.cba7fda7.js.map",
+    "453.8c91dd69.chunk.js.map": "/Estanislao19/don-repo-prueba/static/js/453.8c91dd69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8d72b4.css",
+    "static/js/main.cba7fda7.js"
+  ]
+}
