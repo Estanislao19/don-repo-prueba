@@ -1,0 +1,55 @@
+.footer {
+    background-color: #6C786B;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Para permitir que los elementos se envuelvan en pantallas más pequeñas */
+  }
+  
+  .footer img {
+    height: 50px;
+  }
+  
+  .footer-item {
+    flex: 1;
+    margin: 8px;
+  }
+  
+  .footer-item i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-item p, .footer-item a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .rotated-icon {
+    transform: rotate(100deg); /* Rota el ícono 90 grados */
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
+      align-items: center; /* Centra los elementos en la pantalla */
+    }
+  
+    .footer-item {
+      margin: 5px 0; /* Reduce el margen en pantallas pequeñas */
+      text-align: center;
+    }
+  }
+  

@@ -1,50 +1,101 @@
 .home {
-    text-align: center;
-  }
-  .name-tit{
-    color: #D2B88E;
-  }
-  
+  text-align: center;
+}
+
+.name-tit {
+  color: #D2B88E;
+}
+
+.banner {
+  background-image: url('../assets/pexels-eva-bronzini-6262306.jpg'); /* Agrega tu imagen de fondo aquí */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+ 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner img {
+  height: 100px;
+  max-width: 100%;
+}
+
+.banner h1 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.about-us {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  color: #333; /* Color del texto */
+  margin: 20px;
+ 
+  text-align: left;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+}
+
+.about-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+}
+
+.about-content li {
+  margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 600px) {
   .banner {
-    background-image: url('../assets/StockCake-Weathered\ Wooden\ Planks_1720103424.jpg'); /* Agrega tu imagen de fondo aquí */
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    color: #fff;
-  }
-  
-  .banner img {
-    height: 100px;
-  }
-  
-  .banner h1 {
-    margin-top: 20px;
-    font-size: 2.5rem;
-  }
-  
-  .about-us {
-    padding: 2rem;
-  }
-  
-  .about-us h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .about-us p {
-    margin: 0 auto;
-    max-width: 600px;
+    padding: 50px 0; /* Reduce el padding para pantallas pequeñas */
   }
 
-  @media (max-width: 600px) {
-    .banner img {
-      height: 80px;
-    }
-  
-    .banner h1 {
-      font-size: 2rem;
-    }
-  
-    .about-us p {
-      padding: 0 1rem;
-    }
+  .banner img {
+    height: 164px;
   }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .about-us p {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner {
+    padding: 30px 0; /* Reduce aún más el padding para pantallas muy pequeñas */
+  }
+
+  .banner img {
+    height: 60px;
+  }
+
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-us p {
+    padding: 0 0.5rem;
+  }
+}
